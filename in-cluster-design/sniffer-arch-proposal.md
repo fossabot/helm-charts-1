@@ -3,6 +3,8 @@
 
 ## High-level Architecture Diagram
 
+![Kubescape Operator Architecture](in-cluster-storage.drawio.svg)
+
 ### Flow - On startup
 
 ### Flow - New Workload
