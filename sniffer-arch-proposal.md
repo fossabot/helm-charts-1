@@ -3,11 +3,10 @@
 
 ## High-level Architecture Diagram
 
-### Flow - New Workload
+### Flow - On startup
 
 ### Flow - New Workload
-  <!-- alt Has SBOM (SBOM downloaded, not sniffed)
-      Storage->-Storage: Has SBOM/SBOM' -->
+
 ```mermaid
 sequenceDiagram
   autonumber
