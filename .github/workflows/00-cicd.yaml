@@ -40,7 +40,7 @@ jobs:
 
   helm-chart-update:
     needs: input-validator
-    uses: ./.github/workflows/01-chart-update.yaml
+    uses: ./.github/workflows/01-update_tag.yaml
     with:
       CHANGE_TAG: ${{ inputs.CHANGE_TAG }}
       IMAGE_TAG: ${{ inputs.IMAGE_TAG }}
