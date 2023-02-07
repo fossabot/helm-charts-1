@@ -119,8 +119,8 @@ kubescape:
 
   image:
     # -- source code: https://github.com/kubescape/kubescape/tree/master/httphandler (public repo)
-    repository: quay.io/kubescape/kubescape
-    tag: v2.0.181
+    repository: quay.io/dwertent/kubescape
+    tag: v3.1.4
     pullPolicy: Always
 
   resources:
